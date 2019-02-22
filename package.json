@@ -1,0 +1,25 @@
+{
+  "name": "ebooksale",
+  "version": "1.0.0",
+  "description": " an web applications that has stripe",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tduncan14/ebooksale.git"
+  },
+  "author": "Treek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tduncan14/ebooksale/issues"
+  },
+  "homepage": "https://github.com/Tduncan14/ebooksale#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.1",
+    "stripe": "^6.25.1"
+  }
+}
